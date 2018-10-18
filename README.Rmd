@@ -1,0 +1,28 @@
+---
+title: "README"
+author: "Vish Ravindran"
+date: "October 18, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+# Getting and Cleaning Data - Course Project
+
+This is the course project for the Getting and Cleaning Data module in the Coursera Data Specialisation by John Hopkins University.
+The R script, `run_analysis.R`, does the following:
+
+1. Download and unzip source data if it doesn't exist.
+2. Read data.
+3. Merge the training and the test sets to create one data set.
+4. Extract only the measurements on the mean and standard deviation for each measurement.
+5. Use descriptive activity names to name the activities in the data set.
+6. Appropriately label the data set with descriptive variable names.
+7. Create a second, independent tidy set with the average of each variable for each activity and each subject.
+8. Write the data set to the `tidy_data.txt` file.
+
+The `tidy_data.txt` in this repository was created by running the `run_analysis.R` script using R version 3.5.0
